@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/backgroundorbs.tsx","./src/components/cake3d.tsx","./src/components/camerarig.tsx","./src/components/candle.tsx","./src/hooks/useblowdetection.ts"],"version":"5.6.3"}
