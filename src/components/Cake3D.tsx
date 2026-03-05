@@ -86,7 +86,7 @@ export function Cake3D({ candleCount, extinguishedCandleCount }: Cake3DProps) {
     // Calculate candle positions (arranged in a circle on top of the cake)
     const renderCandles = () => {
         const candles = [];
-        const radius = 1.2; // Radius to place the candles on the top tier
+        const radius = 1.3; // Radius to place the candles on the top tier
 
         for (let i = 0; i < candleCount; i++) {
             const angle = (i / candleCount) * Math.PI * 2;

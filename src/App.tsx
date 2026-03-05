@@ -9,10 +9,10 @@ import { BackgroundOrbs } from './components/BackgroundOrbs';
 import { CameraRig } from './components/CameraRig';
 
 // --- Configuration Constants ---
-export const CANDLE_COUNT = 5;
-export const ORB_COUNT = 20;
+export const CANDLE_COUNT = 6;
+export const ORB_COUNT = 19;
 export const TOTAL_BLOWS = CANDLE_COUNT + ORB_COUNT;
-export const BLOW_THRESHOLD = 0.4;
+export const BLOW_THRESHOLD = 0.35;
 export const BLOW_COOLDOWN = 30; // allow rapid sequential blowing
 
 function App() {
