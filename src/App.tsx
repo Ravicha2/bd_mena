@@ -185,24 +185,45 @@ function App() {
                             background: 'radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%)'
                         }}
                     >
-                        <motion.h1
-                            initial={{ scale: 0.8, y: 20 }}
-                            animate={{ scale: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: 0, ease: 'easeOut' }}
-                            style={{
-                                fontFamily: "'Great Vibes', cursive",
-                                fontSize: 'clamp(4rem, 10vw, 8rem)',
-                                background: '-webkit-linear-gradient(45deg, #ffd700, #ffb347, #ff6b6b)',
-                                WebkitBackgroundClip: 'text',
-                                WebkitTextFillColor: 'transparent',
-                                textShadow: '0 0 40px rgba(255, 215, 0, 0.3)',
-                                textAlign: 'center',
-                                margin: 0,
-                                padding: '0 20px',
-                            }}
-                        >
-                            Happy Birthday
-                        </motion.h1>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            <motion.h1
+                                initial={{ scale: 0.8, y: 20 }}
+                                animate={{ scale: 1, y: 0 }}
+                                transition={{ duration: 0.5, delay: 0, ease: 'easeOut' }}
+                                style={{
+                                    fontFamily: "'Great Vibes', cursive",
+                                    fontSize: 'clamp(4rem, 10vw, 8rem)',
+                                    background: '-webkit-linear-gradient(45deg, #ffd700, #ffb347, #ff6b6b)',
+                                    WebkitBackgroundClip: 'text',
+                                    WebkitTextFillColor: 'transparent',
+                                    textShadow: '0 0 40px rgba(255, 215, 0, 0.3)',
+                                    textAlign: 'center',
+                                    margin: 0,
+                                    padding: '0 20px',
+                                }}
+                            >
+                                Happy Birthday <br /> Mena
+                            </motion.h1>
+                            <motion.p
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8, delay: 0.8, ease: 'easeOut' }}
+                                style={{
+                                    fontFamily: "'Playfair Display', serif",
+                                    fontSize: 'clamp(1.2rem, 3vw, 2rem)',
+                                    color: '#fff',
+                                    textShadow: '0 2px 10px rgba(0,0,0,0.5)',
+                                    textAlign: 'center',
+                                    margin: '10px 0 0 0',
+                                    fontStyle: 'italic',
+                                    maxWidth: '80%',
+                                }}
+                            >
+                                Thinking of you as always. Hope you like the present.<br />
+                                Till we meet again <br />
+                                Always yours
+                            </motion.p>
+                        </div>
                     </motion.div>
                 )}
             </AnimatePresence>
